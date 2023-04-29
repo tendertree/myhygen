@@ -1,6 +1,8 @@
 ---
 to: src/components/<%= h.capitalize(name) %>.tsx
 ---
+import { useEffect } from "react";
+
 interface <%= h.capitalize(name) %>{
 	msg:String
 }
