@@ -1,5 +1,5 @@
 ---
-to: src/components/<%= h.capitalize(name) %>.tsx
+to: ./<%= h.capitalize(name) %>.tsx
 ---
 import { useEffect } from "react";
 
