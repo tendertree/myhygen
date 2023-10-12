@@ -4,10 +4,10 @@ to: src/components/<%= h.capitalize(name) %>/index.tsx
 'use client'
 import { useEffect } from "react";
 
-interface <%= h.capitalize(name) %Props>{
+interface <%= h.capitalize(name) %>Props{
 	msg:String
 }
-const <%= h.capitalize(name) %> =  ({ msg }:<%= h.capitalize(name)Props %>)=> {
+const <%= h.capitalize(name) %> =  ({ msg }:<%= h.capitalize(name)%>Props)=> {
 
 
 useEffect(() => {

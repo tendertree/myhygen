@@ -1,8 +1,8 @@
 ---
-to: src/stories/<%= h.capitalize(name) %>.stories.tsx
+to: src/components/<%= h.capitalize(name) %>/<%= h.capitalize(name) %>.stories.tsx
 ---
 import type { Meta, StoryObj } from '@storybook/react';
-import { <%= h.capitalize(name)%> } from '../components/<%= h.capitalize(name) %>';
+import { <%= h.capitalize(name)%> } from './index.tsx';
 const meta: Meta<typeof <%= h.capitalize(name) %>> = {
 	title: 'ui/<%= h.capitalize(name) %>',
 	component:<%= h.capitalize(name) %>,
